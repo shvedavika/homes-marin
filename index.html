@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rentpif</title>
+    <meta name="viewport" content="width=640, initial-scale=1"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css"/>
+</head>
+<body>
+    <header class="header">
+        <section class="header-top">
+            <div class="header-top__social">
+                <a class="social-link" href="#"><img class="social-link__icon" src="assets/twitter.svg"/></a>
+                <a class="social-link" href="#"><img class="social-link__icon" src="assets/facebook.svg"/></a>
+                <a class="social-link" href="#"><img class="social-link__icon" src="assets/linked-in.svg"/></a>
+            </div>
+            <div class="header-top__registration">
+                <div class="header-top-menu text-with-icon">
+                    <a href="mailto:office@rentfi.com" class="text-with-icon__icon">
+                        <span class="icon icon--envelope"></span>
+                    </a>
+                    <a class="menu-item" href="mailto:office@rentfi.com">Email us at: office@rentfi.com</a>
+                </div>
+                <div class="header-top-menu text-with-icon">
+                    <a href="#" class="text-with-icon__icon"><span class="icon icon--register"></span></a>
+                    <a class="menu-item" href="#">Register</a>
+                </div>
+                <div class="header-top-menu text-with-icon">
+                    <a href="#" class="text-with-icon__icon"><span class="icon icon--login"></span></a>
+                    <a class="menu-item" href="#">Login</a>
+                </div>
+                <a href="#"><span class="icon icon--search"></span></a>
+            </div>
+        </section>
+        <section class="header-menu">
+            <a class="header-menu__logo" href="#"><img src="assets/logo.jpg"/></a>
+                <ul class="nav-menu">
+                    <li class="menu"><a class="menu__header menu-item" href="#">Home</a></li>
+                    <li class="menu"><a class="menu__header menu-item" href="#">Apartment Listings</a></li>
+                    <li class="menu"><a class="menu__header menu-item" href="#">Blogs</a></li>
+                    <li class="menu"><a class="menu__header menu-item" href="#">Contact Us</a></li>
+                </ul>
+            <img class="header-menu__mobile-toggle" src="assets/white-menu-icon.png"/>
+        </section>
+    </header>
+    <section class="content">
+        <section class="section">
+            <section class="section__item section__item--indent property-section">
+                <div class="property-info background-style">
+                    <img class="property-info__logo" src="assets/property-logo.png">
+                    <h2 class="property-info__title">Your property name here</h2>
+                        <div class="property-mobile-info text-with-icon">
+                            <span class="text-with-icon__icon text-with-icon__icon--bordered">
+                                <span class="icon icon--phone"></span>
+                            </span>
+                            <div>
+                                <a class="link-style property-mobile-info__text" href="tel:+8801713452211">
+                                    +8801713452211
+                                </a><br/>
+                                <a class="link-style property-mobile-info__text" href="tel:+9901813336677">
+                                    +9901813336677
+                                </a>
+                            </div>
+                        </div>
+                        <address class="property-address-info text-with-icon">
+                            <span class="text-with-icon__icon text-with-icon__icon--bordered">
+                                <span class="icon icon--location-orange"></span>
+                            </span>
+                            <p class="property-address-info__text">
+                                Mirpur-12, Block-c, road-13, house-16.<br/>
+                                Pallobi, Dhaka-1216, Bangladesh
+                            </p>
+                        </address>
+                </div>
+                <div class="property-photos">
+                    <div class="property-slider">
+                        <span class="property-slider__arrow-left arrow arrow--left"></span>
+                        <img class="property-slider__main-photo" src="assets/property-main-photo.png"/>
+                        <span class="property-slider__arrow-right arrow arrow--right"></span>
+                    </div>
+                    <div class="property-promo">
+                        <div class="property-promo__photo" style="background-image: url('assets/property-promo-1.png')">
+                        </div>
+                        <div class="property-promo__photo" style="background-image: url('assets/property-promo-2.png')">
+                        </div>
+                        <div class="property-promo__photo" style="background-image: url('assets/property-promo-3.png')">
+                        </div>
+                        <div class="property-promo__photo" style="background-image: url('assets/property-promo-4.png')">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="section section--grayed">
+            <section class="section__item section__item--indent property-options background-style">
+                <div class="property-tabs">
+                    <button class="property-tabs__button property-tabs__button--active button button--cornered button--orange">
+                        All
+                    </button>
+                    <button class="property-tabs__button button button--cornered">1 Bedroom</button>
+                    <button class="property-tabs__button button button--cornered">2 Bedroom</button>
+                </div>
+                <div class="property-characteristics">
+                    <table class="table-characteristics">
+                        <tr>
+                            <th>Bedrooms</th>
+                            <th>Price</th>
+                            <th class="property-characteristics__size">Size</th>
+                            <th class="property-characteristics__name">Name</th>
+                            <th>Status</th>
+                            <th>Options</th>
+                        </tr>
+                        <tr>
+                            <td>1 Bedroom</td>
+                            <td>$2,000</td>
+                            <td class="property-characteristics__size">900 sq ft</td>
+                            <td class="property-characteristics__name">Your Property name</td>
+                            <td class="property-characteristics__status property-characteristics__status--available">
+                                Available
+                            </td>
+                            <td>
+                                <button class="property-characteristics__button button button--active button--uppercase button--cornered">Buy now</button></td>
+                        </tr>
+                        <tr>
+                            <td>2 Bedroom</td>
+                            <td>$2,000</td>
+                            <td class="property-characteristics__size">900 sq ft</td>
+                            <td class="property-characteristics__name">Your Property name</td>
+                            <td class="property-characteristics__status property-characteristics__status--available">
+                                Available
+                            </td>
+                            <td><button class="property-characteristics__button button button--green button--uppercase button--cornered">Buy now</button></td>
+                        </tr>
+                        <tr>
+                            <td>1 Bedroom</td>
+                            <td>$2,000</td>
+                            <td class="property-characteristics__size">900 sq ft</td>
+                            <td class="property-characteristics__name">Your Property name</td>
+                            <td class="property-characteristics__status property-characteristics__status--unavailable">
+                                Not Available
+                            </td>
+                            <td><button class="property-characteristics__button button button--green button--uppercase button--cornered">Buy now</button></td>
+                        </tr>
+                        <tr>
+                            <td>2 Bedroom</td>
+                            <td>$2,000</td>
+                            <td class="property-characteristics__size">900 sq ft</td>
+                            <td class="property-characteristics__name">Your Property name</td>
+                            <td class="property-characteristics__status property-characteristics__status--available">
+                                Available
+                            </td>
+                            <td><button class="property-characteristics__button button button--green button--uppercase button--cornered">Buy now</button></td>
+                        </tr>
+                        <tr>
+                            <td>1 Bedroom</td>
+                            <td>$2,000</td>
+                            <td class="property-characteristics__size">900 sq ft</td>
+                            <td class="property-characteristics__name">Your Property Name</td>
+                            <td class="property-characteristics__status property-characteristics__status--available">
+                                Available
+                            </td>
+                            <td>
+                                <button class="property-characteristics__button button button--green button--uppercase button--cornered">
+                                    Buy now
+                                </button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </section>
+        <section class="section">
+            <section class="section__item map">
+                <div class="map__image"></div>
+                <button class="map__button button button--orange button--uppercase">View map</button>
+            </section>
+        </section>
+        <section class="section">
+            <section class="section__item section__item--indent about-property">
+                <h3 class="about-property__title">About property</h3>
+                <p class="about-property__summary">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                    also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
+                    in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                    with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <div class="property-cards">
+                    <div class="property-cards__card property property--cornered">
+                        <h4 class="property__title">Your title here</h4>
+                        <ul class="property-list">
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                        </ul>
+                    </div>
+                    <div class="property-cards__card property property--cornered">
+                        <h4 class="property__title">Your title here</h4>
+                        <ul class="property-list">
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                        </ul>
+                    </div>
+                    <div class="property-cards__card property property--cornered">
+                        <h4 class="property__title">Your title here</h4>
+                        <ul class="property-list">
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                        </ul>
+                    </div>
+                    <div class="property-cards__card property property--cornered">
+                        <h4 class="property__title">Your title here</h4>
+                        <ul class="property-list">
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                        </ul>
+                    </div>
+                    <div class="property-cards__card property property--cornered">
+                        <h4 class="property__title">Your title here</h4>
+                        <ul class="property-list">
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                        </ul>
+                    </div>
+                    <div class="property-cards__card property property--cornered">
+                        <h4 class="property__title">Your title here</h4>
+                        <ul class="property-list">
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="section">
+            <section class="section__item property-advertisement background-mask" style="background-image: url('assets/house-background.png')">
+                <div class="advertisement-content">
+                    <h4 class="advertisement-content__title">Office Hours at Property</h4>
+                    <p class="advertisement-content__info">
+                        Today’s Hours: 9 am - 5pm<br/>
+                        Monday - Saturday: 9-5<br/>
+                        Sunday: By appointment
+                    </p>
+                    <button class="advertisement-content__button button button--orange">Contact</button>
+                </div>
+            </section>
+        </section>
+        <section class="section">
+            <section class="section__item section__item--indent feedback">
+                <h3 class="feedback__title">Testimonials</h3>
+                <div class="feedback-indicator">
+                    <span class="feedback-indicator__point feedback-indicator__point--not-active"></span>
+                    <span class="feedback-indicator__point feedback-indicator__point--not-active"></span>
+                    <span class="feedback-indicator__point feedback-indicator__point--not-active"></span>
+                    <span class="feedback-indicator__point feedback-indicator__point--not-active"></span>
+                    <span class="feedback-indicator__point feedback-indicator__point--not-active"></span>
+                    <span class="feedback-indicator__point feedback-indicator__point--not-active"></span>
+                    <span class="feedback-indicator__point feedback-indicator__point--not-active"></span>
+                    <span class="feedback-indicator__point feedback-indicator__point--not-active"></span>
+                    <span class="feedback-indicator__point feedback-indicator__point--not-active"></span>
+                    <span class="feedback-indicator__point feedback-indicator__point--not-active"></span>
+                    <span class="feedback-indicator__point feedback-indicator__point--not-active"></span>
+                    <span class="feedback-indicator__point feedback-indicator__point--not-active"></span>
+                    <span class="feedback-indicator__point feedback-indicator__point--not-active"></span>
+                    <span class="feedback-indicator__point feedback-indicator__point--not-active"></span>
+                    <span class="feedback-indicator__point feedback-indicator__point--active"></span>
+                </div>
+                <div class="comment">
+                    <p class="comment__text">
+                        The complex manager, Michael Elmore, is am outstanding individual. In my search for a rental
+                        here in Sonoma, I have met no one with a better knowledge of the property he was showong. I
+                        mean down to the smallest detail! Polite, helpful, knowledgeable, the trifecta of customer
+                        service!
+                    </p>
+                    <div class="owner">
+                        <span class="owner__photo"></span>
+                        <span class="owner__name">Thomas S.</span>
+                    </div>
+                </div>
+                <button class="feedback__button button button--green">Write a Review</button>
+            </section>
+        </section>
+        <section class="section section--grayed">
+            <section class="section__item section__item--indent about-property about-property--inverted">
+                <h3 class="about-property__title">About property</h3>
+                <div class="property-cards">
+                    <div class="property-cards__card property property--shadowed">
+                        <h4 class="property__title">Your title here</h4>
+                        <ul class="property-list">
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                        </ul>
+                    </div>
+                    <div class="property-cards__card property property--shadowed">
+                        <h4 class="property__title">Your title here</h4>
+                        <ul class="property-list">
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                        </ul>
+                    </div>
+                    <div class="property-cards__card property property--shadowed">
+                        <h4 class="property__title">Your title here</h4>
+                        <ul class="property-list">
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                        </ul>
+                    </div>
+                    <div class="property-cards__card property property--shadowed">
+                        <h4 class="property__title">Your title here</h4>
+                        <ul class="property-list">
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                        </ul>
+                    </div>
+                    <div class="property-cards__card property property--shadowed">
+                        <h4 class="property__title">Your title here</h4>
+                        <ul class="property-list">
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                        </ul>
+                    </div>
+                    <div class="property-cards__card property property--shadowed">
+                        <h4 class="property__title">Your title here</h4>
+                        <ul class="property-list">
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                            <li class="property-list__points">Some bullet point</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="section">
+            <section class="section__item section__item--indent property-country-details">
+                <div class="property-country-details__post property-city property-city--inverted">
+                    <h4 class="property-city__title">About city</h4>
+                    <p class="property-city__info">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged. It was popularised in
+                        the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including
+                        versions of Lorem Ipsum.
+                    </p>
+                    <button class="property-city__button button button--green">Learn more</button>
+                </div>
+                <div class="property-country-details__post property-city">
+                    <h4 class="property-city__title">About Neighborhood</h4>
+                    <p class="property-city__info">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged. It was popularised in
+                        the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including
+                        versions of Lorem Ipsum.
+                    </p>
+                    <button class="property-city__button button button--orange">Learn more</button>
+                </div>
+            </section>
+        </section>
+        <section class="section section--grayed">
+            <section class="section__item section__item--indent facilities">
+                <div class="facilities-statistic">
+                    <address class="facilities-statistic__address">1060 Lombard Street San Francisco CA</address>
+                    <ul class="facilities-points">
+                        <li class="facilities-points__point facilities-summary text-with-icon">
+                            <span class="icon icon--walk text-with-icon__icon facilities-summary__icon"></span>
+                            Walker's Paradise<br/>Daily errands don't require a car
+                        </li>
+                        <li class="facilities-points__point facilities-summary text-with-icon">
+                            <span class="icon icon--transport text-with-icon__icon facilities-summary__icon"></span>
+                            Rider's Paradise<br/>World-class public transportation
+                        </li>
+                        <li class="facilities-points__point facilities-summary text-with-icon">
+                            <span class="icon icon--bike text-with-icon__icon facilities-summary__icon"></span>
+                            Bikeable<br/>
+                            Very steep heels, excellent bike lanes
+                        </li>
+                    </ul>
+                    <figure class="facilities-statistic__chart chart">
+                        <figcaption class="chart__title">The Walk Score here is 94 out of 100 based on these categories.
+                            <a href="#">View a map</a> of what's nearby.
+                        </figcaption>
+                        <img class="chart__image" src="assets/facilities-chart.jpg"/>
+                    </figure>
+                    <div class="facilities-search">
+                        <input class="facilities-search__input" type="search" placeholder="Get scores for your address"/>
+                        <button class="facilities-search__button"></button>
+                    </div>
+                </div>
+                <div class="facilities-map">
+                    <div class="facilities-buttons">
+                        <button class="facilities-buttons__button">Map</button>
+                        <button class="facilities-buttons__button facilities-buttons__button--active">Search</button>
+                    </div>
+                    <div class="facilities-map__content">
+                        <div class="facilities-point">
+                            <div class="facilities-point__text">Schools near
+                            <address class="facilities-point__address">Fremont, CA 94536</address></div>
+                            <a class="facilities-point__icon" href="#" style="background-image: url('information.svg')"></a>
+                        </div>
+                        <div class="facilities-options">
+                            <input type="checkbox" id="elementary" checked/>
+                            <label for="elementary">Elementary</label>
+                            <input type="checkbox" id="middle" checked/>
+                            <label for="middle">Middle</label>
+                            <input type="checkbox" id="high" checked/>
+                            <label for="high">High</label>
+                        </div>
+                    <img class="facilities-map__image" src="assets/facilities-map.jpg"/>
+                    <cite class="facilities-author">
+                        <span>Powered by </span>
+                        <a class="facilities-author__logo" href="#" style="background-image: url('assets/facilities-author.jpg')"></a>
+                    </cite>
+                </div>
+                </div>
+            </section>
+        </section>
+        <section class="section">
+            <section class="section__item section__item--indent property-gallery gallery">
+                <h3 class="property-gallery__title header-style">
+                    <span class="header-style--inverted">Property </span>gallery
+                </h3>
+                <a class="property-gallery__card background-mask gallery__card gallery__card--r1-c1-w1-h1" style="background-image: url('assets/villa.jpeg')" href="#">
+                    <div class="property-gallery__title">Vilas<br/></div>
+                    <div class="property-gallery__description">30 submissions in directory</div>
+                </a>
+                <a class="property-gallery__card background-mask gallery__card gallery__card--r1-c2-w1-h1" style="background-image: url('assets/house.jpg')" href="#">
+                    <div class="property-gallery__title">Houses<br/></div>
+                    <div class="property-gallery__description">98 submissions in directory</div>
+                </a>
+                <a class="property-gallery__card background-mask gallery__card gallery__card--r1-c3-w1-h2" style="background-image: url('assets/condos.jpg')" href="#">
+                    <div class="property-gallery__title">Condos<br/></div>
+                    <div class="property-gallery__description">312 submissions in directory</div>
+                </a>
+                <a class="property-gallery__card background-mask gallery__card gallery__card--r2-c1-w2-h1" style="background-image: url('assets/appartment.jpg')" href="#">
+                    <div class="property-gallery__title">Appartments<br/></div>
+                    <div class="property-gallery__description">211 submissions in directory</div>
+                </a>
+            </section>
+        </section>
+        <section class="section section--grayed">
+            <section class="section__item section__item--indent floor-gallery gallery">
+                <h3 class="floor-gallery__title header-style">
+                    <span class="header-style--inverted">Floor </span> plan
+                </h3>
+                <a class="floor-gallery__card gallery__card gallery__card--r1-c1-w1-h2" style="background-image: url('assets/floor-plan-1.png')" href="#"></a>
+                <a class="floor-gallery__card gallery__card gallery__card--r1-c2-w1-h1" style="background-image: url('assets/floor-plan-2.png')" href="#"></a>
+                <a class="floor-gallery__card gallery__card gallery__card--r1-c3-w1-h1" style="background-image: url('assets/floor-plan-3.png')" href="#"></a>
+                <a class="floor-gallery__card gallery__card gallery__card--r2-c2-w1-h1" style="background-image: url('assets/floor-plan-4.png')" href="#"></a>
+                <a class="floor-gallery__card gallery__card gallery__card--r2-c3-w1-h1" style="background-image: url('assets/floor-plan-5.png')" href="#"></a>
+            </section>
+        </section>
+        <section class="section">
+            <section class="section__item section__item--indent properties-slick">
+                <h3 class="properties-slick__title header-style">
+                    <span class="header-style--inverted">Other nearby </span> properties
+                </h3>
+                <div class="properties-slick__container">
+                    <span class="properties-slick__arrow properties-slick__arrow--left arrow arrow--left arrow--inverted"></span>
+                    <div class="property-card">
+                        <div class="property-card__image" style="background-image: url('assets/property-card-image.png')"></div>
+                        <h5 class="property-card__title">Property name</h5>
+                        <div class="property-summary">
+                            <span class="property-summary__header">Location</span>
+                            <span class="property-summary__value">New York</span>
+                        </div>
+                        <div class="property-summary">
+                            <span class="property-summary__header">Size</span>
+                            <span class="property-summary__value">50sqft</span>
+                        </div>
+                        <button class="button button--green button--cornered property-card__button">Learn more</button>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-card__image" style="background-image: url('assets/property-card-image.png')"></div>
+                        <h5 class="property-card__title">Property name</h5>
+                        <div class="property-summary">
+                            <span class="property-summary__header">Location</span>
+                            <span class="property-summary__value">New York</span>
+                        </div>
+                        <div class="property-summary">
+                            <span class="property-summary__header">Size</span>
+                            <span class="property-summary__value">50sqft</span>
+                        </div>
+                        <button class="button button--green button--cornered property-card__button">Learn more</button>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-card__image" style="background-image: url('assets/property-card-image.png')"></div>
+                        <h5 class="property-card__title">Property name</h5>
+                        <div class="property-summary">
+                            <span class="property-summary__header">Location</span>
+                            <span class="property-summary__value">New York</span>
+                        </div>
+                        <div class="property-summary">
+                            <span class="property-summary__header">Size</span>
+                            <span class="property-summary__value">50sqft</span>
+                        </div>
+                        <button class="button button--green button--cornered property-card__button">Learn more</button>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-card__image" style="background-image: url('assets/property-card-image.png')"></div>
+                        <h5 class="property-card__title">Property name</h5>
+                        <div class="property-summary">
+                            <span class="property-summary__header">Location</span>
+                            <span class="property-summary__value">New York</span>
+                        </div>
+                        <div class="property-summary">
+                            <span class="property-summary__header">Size</span>
+                            <span class="property-summary__value">50sqft</span>
+                        </div>
+                        <button class="button button--green button--cornered property-card__button">Learn more</button>
+                    </div>
+                    <span class="properties-slick__arrow properties-slick__arrow--right arrow arrow--right arrow--inverted"></span>
+                </div>
+            </section>
+        </section>
+        <section class="section section--grayed">
+            <section class="section__item section__item--indent contacts">
+                <h3 class="contacts__header header-style">Contact <span class="header-style--inverted">Manager</span></h3>
+                <div class="contacts__wrapper">
+                    <div class="contact-data">
+                        <a href="tel:(415)453-6204" class="contact-data__mobile link-style text-with-icon">
+                            <span class="icon icon--phone-white text-with-icon__icon"></span>(415)453-6204
+                        </a>
+                        <div class="contacts-owner">
+                            <span class="contacts-owner__photo" style="background-image: url('assets/contacts-photo.png')"></span>
+                            <h4 class="contacts-owner__name">Toni Lawies</h4>
+                        </div>
+                        <a href="mailto:lincoln@rentpif.com" class="contact-data__email link-style text-with-icon">
+                            <span class="icon icon--envelope-closed text-with-icon__icon"></span>lincoln@rentpif.com
+                        </a>
+
+                    </div>
+                    <form class="contact-form">
+                        <input class="contact-form__field" type="text" placeholder="Your Name *"/>
+                        <input class="contact-form__field" type="email" placeholder="Your Email *"/>
+                        <textarea class="contact-form__field contact-form__field--message" placeholder="Your Message *"></textarea>
+                        <button class="button button--orange contact-form__button">Send message</button>
+                    </form>
+                </div>
+            </section>
+        </section>
+    </section>
+    <footer class="background-mask">
+        <section class="footer-top">
+            <div class="footer-top__r1-1 footer-division footer-division--big ">
+                <h5 class="footer-division__header">About us</h5>
+                <p class="footer-summary">
+                    Being a residential housing provider leader for over three decades, we are confident in
+                    ability to offer the renters great housing options in Marin Country. Our property managers
+                    will help you find a unit that has features you need and guide you through the apartment
+                    rental process. Our goal is for our residents to be completely satisfied with their apartment
+                    home and live the lifestyle they've imagined in one of our beatiful communities.
+                </p>
+            </div>
+            <div class="footer-division">
+                <h5 class="footer-division__header">Quick links</h5>
+                <ul class="footer-summary">
+                    <li class="footer-summary__point footer-summary__point--bulleted">
+                        <a class="footer-division__item menu-item" href="#">About us</a>
+                    </li>
+                    <li class="footer-summary__point footer-summary__point--bulleted">
+                        <a class="footer-division__item menu-item" href="#">Contact us</a>
+                    </li>
+                    <li class="footer-summary__point footer-summary__point--bulleted">
+                        <a class="footer-division__item menu-item" href="#">Apartment Listing</a>
+                    </li>
+                    <li class="footer-summary__point footer-summary__point--bulleted">
+                        <a class="footer-division__item menu-item" href="#">Our ptoperty managers</a>
+                    </li>
+                    <li class="footer-summary__point footer-summary__point--bulleted">
+                        <a class="footer-division__item menu-item" href="#">Sonoma Apartments</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-division">
+                <h5 class="footer-division__header">Services</h5>
+                <ul class="footer-summary">
+                    <li class="footer-summary__point footer-summary__point--bulleted">
+                        <a class="footer-division__item menu-item" href="#">Best tenant service</a>
+                    </li>
+                    <li class="footer-summary__point footer-summary__point--bulleted">
+                        <a class="footer-division__item menu-item" href="#">Responsive management</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-division">
+                <h5 class="footer-division__header">Helpful links</h5>
+                <ul class="footer-summary">
+                    <li class="footer-summary__point">
+                        <a class="footer-division__item menu-item"href="#">Login</a>
+                    </li>
+                    <li class="footer-summary__point">
+                        <a class="footer-division__item menu-item" href="#">Sign up</a>
+                    </li>
+                    <li class="footer-summary__point">
+                        <a class="footer-division__item menu-item" href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-top__r1-2 footer-division footer-division--mobile-view">
+                <h5 class="footer-division__header">Contact us</h5>
+                <ul class="footer-list">
+                    <li>
+                        <address class="footer-list__item menu-item text-with-icon">
+                            <span class="icon icon--location-white text-with-icon__icon"></span>
+                            350 Ignacio Bvld Novato, CA 94949
+                        </address>
+                    </li>
+                    <li>
+                        <a class="footer-list__item menu-item text-with-icon" href="mailto:office@rentpfi.com">
+                            <span class="icon icon--envelope-closed text-with-icon__icon"></span>
+                            Email:office@rentpfi.com
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="footer-bottom">
+            <div class="footer-bottom__wrapper">
+                <p class="footer-bottom__copyright">© 2018 Apartment Homes Marin | RentPFI.</p>
+                <div class="footer-bottom-links">
+                    <a class="menu-item footer-bottom-links__link" href="#">Site Map</a>
+                    <a class="menu-item footer-bottom-links__link" href="#">Privacy Policy</a>
+                </div>
+            </div>
+            <span class="footer-bottom__scroll-button arrow"></span>
+        </section>
+    </footer>
+</body>
+</html>
